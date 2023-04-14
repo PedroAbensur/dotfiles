@@ -1,5 +1,5 @@
 * {
-    /*font-family: JetBrainsMono, "Noto Sans", "Roboto Condensed", "sans-serif"*/;
+    /*font-family: JetBrainsMono, "Noto Sans", "Roboto Condensed", "sans-serif";*/
     font-family: "JetBrainsMono Nerd Font";
     font-size: 14px;
     font-weight: bold;
@@ -36,6 +36,7 @@ window#waybar.hidden {
 #custom-power,
 #custom-weather,
 #custom-updater,
+#custom-spotify,
 #custom-keybindings,
 #custom-cycle_wall,
 #network {
@@ -146,12 +147,17 @@ window#waybar.hidden {
   background-color: #fcf4dd;
 	/*background-color: #f38ba8;*/
   margin-right: 4px;
+  padding-left: 4px;
   font-size: 24px;
 }
 
 #custom-updater {
   background-color: #fcf4dd;
 	/*background-color: #e6ed7b;*/
+}
+
+#custom-spotify {
+  background-color: #fcf4dd;
 }
 
 #custom-uptime {

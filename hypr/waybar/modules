@@ -98,10 +98,11 @@
 
   "cpu": {
     // "interval": 5,
-    // "format": " {usage}%",
+    //"format": " {usage}%",
+    "format": " {usage}%",
     "interval": 1,
-    "format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    //"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
+    //"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
   },
            
   "custom/menu": {
@@ -110,20 +111,30 @@
     "on-click": "$HOME/.config/hypr/scripts/menu",
   },
 
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 $HOME/.config/hypr/scripts/mediaplayer.py --player spotify",
+    "format": "{}  ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    //"on-click-right": "spotify",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+  },
+
   "custom/power": {
-    "format": "  ",
+    "format": "⏻",
     "tooltip": false,
    "on-click": "wlogout",
   },
 
   "disk": {
     "interval": 30,
-    "format": " {free}",
+    "format": "󰋊 {free}",
   },
 
   "memory": {
     "interval": 10,
-    "format": " {used:0.1f}G",
+    "format": " {used:0.1f}G",
   },
 
   "network": {
