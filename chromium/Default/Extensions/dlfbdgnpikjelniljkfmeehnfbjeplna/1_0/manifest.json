@@ -1,0 +1,38 @@
+{
+   "description": "",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvFRHKWNbnGN3l8jRQTQPURpXeCzL67qCe4mPc0Pgl3mIPaHrX3iP0NYDH49S+KBX/xva92KK3h9PfdCyc0Ev7WkiYFsLh3TozbaTuxEu0nFoBANao/LMhyLwGbMEYZ1zrtBaTlIshI3ZPmBymMbNJ+qPeA+EECobpB+K0GyCjlzbPkZn/MucO9pcMAKacxBPP9hw4Qvq/PrUtRc+131DG3gl2rEOaGL6SzH2QD/F1Y8qO/u2bgKmTyNJaYVVmhV9KKawGQBpOf99Uun87mAb659cI/ccDzqU+tlGkS7KXBdvGq96SiO1K0zlgJYaXT12/xNCZhlYHMMU9AMLRF2DEQIDAQAB",
+   "manifest_version": 2,
+   "name": "Nier:Automata YoRHa Theme",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 153, 149, 132 ],
+         "button_background": [ 174, 169, 149, 0.56 ],
+         "frame": [ 66, 116, 201 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 108, 103, 100 ],
+         "tab_background_text": [ 89, 83, 67 ],
+         "tab_text": [ 209, 203, 187 ],
+         "toolbar": [ 71, 68, 66 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "repeat"
+      },
+      "tints": {
+         "buttons": [ 0.12, 0.12, 0.68 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}
