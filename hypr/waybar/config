@@ -11,7 +11,7 @@
   "margin-left": 0,
   "margin-right": 0,
 
-  "modules-left": ["wlr/workspaces", "cpu", "battery", "memory", "disk"],
+  "modules-left": ["wlr/workspaces", "battery", "cpu", "memory", "disk"],
   "modules-center": ["clock"],
   "modules-right": ["custom/updater","custom/spotify","network", "pulseaudio", "custom/power"],
 }
