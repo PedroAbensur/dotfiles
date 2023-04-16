@@ -1,0 +1,26 @@
+2023-04-15 21:40:36.382 [info] Log level: Info
+2023-04-15 21:40:36.382 [info] Validating found git in: "git"
+2023-04-15 21:40:36.566 [info] Using git "2.40.0" from "git"
+2023-04-15 21:43:02.254 [info] Log level: Info
+2023-04-15 21:43:02.275 [info] Validating found git in: "git"
+2023-04-15 21:43:02.275 [info] Using git "2.40.0" from "git"
+2023-04-15 21:43:02.275 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-15 21:43:02.786 [info] > git rev-parse --git-dir --git-common-dir [505ms]
+2023-04-15 21:43:02.794 [info] Open repository: /home/haru/esquizoDB
+2023-04-15 21:43:03.147 [info] > git config --get commit.template [337ms]
+2023-04-15 21:43:03.147 [info] > git rev-parse --show-toplevel [346ms]
+2023-04-15 21:43:03.206 [info] > git rev-parse --show-toplevel [52ms]
+2023-04-15 21:43:03.214 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-15 21:43:03.302 [info] > git show --textconv :.gitignore [81ms]
+2023-04-15 21:43:03.311 [info] > git ls-files --stage -- /home/haru/esquizoDB/.gitignore [83ms]
+2023-04-15 21:43:03.338 [info] > git cat-file -s e5f0b0661834637400fa0613586373f9a7547c11 [14ms]
+2023-04-15 21:43:03.673 [info] > git check-ignore -v -z --stdin [8ms]
+2023-04-15 21:43:03.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [562ms]
+2023-04-15 21:43:03.917 [info] > git status -z -uall [137ms]
+2023-04-15 21:43:03.957 [info] > git config --get commit.template [2ms]
+2023-04-15 21:43:03.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2023-04-15 21:43:04.096 [info] > git status -z -uall [114ms]
+2023-04-15 21:43:04.260 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-15 21:43:04.886 [info] > git ls-files --stage -- /home/haru/esquizoDB/scripts/tp1_3.2.py [51ms]
+2023-04-15 21:43:04.917 [info] > git show --textconv :scripts/tp1_3.2.py [93ms]
+2023-04-15 21:43:04.918 [info] > git cat-file -s 22a382a12f2fad0ff6b120c5179ebbcb824b55d2 [22ms]

@@ -1,0 +1,58 @@
+2023-04-15 21:40:32.872 [info] Starting worker process with pid 1300315 (type: fileWatcher, window: 1).
+2023-04-15 21:40:33.688 [info] Started initializing default profile extensions in extensions installation folder. file:///home/haru/.vscode-oss/extensions
+2023-04-15 21:40:34.160 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/haru/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/haru/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-04-15 21:40:34.160 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/haru/.vscode-oss/extensions
+2023-04-15 21:41:04.306 [info] Getting Manifest... eamodio.gitlens
+2023-04-15 21:41:04.587 [info] Installing extension: eamodio.gitlens
+2023-04-15 21:41:10.962 [info] Extension signature verification is not done: eamodio.gitlens
+2023-04-15 21:41:11.341 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.1f8fa865-9f1c-40c0-a6c1-34e35aef2fdc: eamodio.gitlens
+2023-04-15 21:41:11.524 [info] Renamed to /home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal
+2023-04-15 21:41:11.544 [info] Extracting extension completed. eamodio.gitlens
+2023-04-15 21:41:11.636 [info] Extension installed successfully: eamodio.gitlens
+2023-04-15 21:41:21.815 [info] Getting Manifest... ms-python.python
+2023-04-15 21:41:22.514 [info] Installing extension: ms-python.python
+2023-04-15 21:41:22.866 [info] Getting Manifest... ms-toolsai.jupyter
+2023-04-15 21:41:23.695 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-15 21:41:24.198 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-04-15 21:41:24.688 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-15 21:41:25.178 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-15 21:41:25.807 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-04-15 21:41:25.807 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-04-15 21:41:25.808 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-04-15 21:41:25.808 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-04-15 21:41:25.808 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-04-15 21:41:27.393 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2023-04-15 21:41:27.432 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.0fb8a93c-3378-4b92-9166-53f6c55f13f4: ms-toolsai.jupyter-keymap
+2023-04-15 21:41:27.573 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+2023-04-15 21:41:27.578 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-04-15 21:41:28.688 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-15 21:41:28.813 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.f003b446-d7b8-41d8-8306-3a6d1d0084f3: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-15 21:41:28.826 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2023-04-15 21:41:28.865 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.ba7b8324-8f2b-4bcf-a53b-b06ced9fd1fb: ms-toolsai.vscode-jupyter-slideshow
+2023-04-15 21:41:29.030 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-04-15 21:41:29.038 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-04-15 21:41:29.157 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-04-15 21:41:29.164 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-04-15 21:41:30.968 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2023-04-15 21:41:31.344 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.a6d7f693-c2bc-4af2-93cb-9812bbb52ab3: ms-toolsai.jupyter-renderers
+2023-04-15 21:41:31.836 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.15-universal
+2023-04-15 21:41:31.840 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-04-15 21:41:35.510 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2023-04-15 21:41:36.007 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.305716ec-2e48-4827-8298-1e15b2eb0b8f: ms-toolsai.jupyter
+2023-04-15 21:41:36.319 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal
+2023-04-15 21:41:36.349 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-04-15 21:41:43.602 [info] Extension signature verification is not done: ms-python.python
+2023-04-15 21:41:45.134 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.093a526e-671a-447f-ba25-ce4c86079a43: ms-python.python
+2023-04-15 21:41:45.322 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal
+2023-04-15 21:41:45.337 [info] Extracting extension completed. ms-python.python
+2023-04-15 21:41:45.419 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-04-15 21:41:45.420 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-15 21:41:45.420 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-04-15 21:41:45.421 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-04-15 21:41:45.423 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-04-15 21:41:45.424 [info] Extension installed successfully: ms-python.python
+2023-04-15 21:42:52.508 [info] Worker process with pid 1300315 terminated normally (type: fileWatcher, window: 1).
+2023-04-15 21:42:52.636 [info] Starting worker process with pid 1302621 (type: fileWatcher, window: 1).
+2023-04-15 21:42:55.943 [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-04-15 21:42:55.947 [info] Worker process with pid 1302621 terminated normally (type: fileWatcher, window: 1).
+2023-04-15 21:42:55.969 [info] Starting worker process with pid 1302751 (type: fileWatcher, window: 1).
