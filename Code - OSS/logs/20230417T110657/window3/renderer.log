@@ -1,0 +1,54 @@
+2023-04-17 11:07:52.427 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:07:52.450 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-04-17 11:07:52.450 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:07:52.451 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:07:52.562 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-04-17 11:07:52.563 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-04-17 11:08:02.523 [info] [perf] Render performance baseline is 113ms
+2023-04-17 11:08:13.931 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:08:13.931 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-04-17 11:08:13.932 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:08:13.932 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-17 11:08:14.075 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-04-17 11:08:14.076 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-04-17 11:08:17.651 [info] [perf] Render performance baseline is 204ms
+2023-04-17 11:08:18.334 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at Mc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:45108)
+	at new PC (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:433687)
+	at f (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:544291)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548700
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545511
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:550764)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519737
+	at e._get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519166)
+	at e.get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:514861)
+	at Ly.get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:69994)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:552800
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-17 11:11:09.866 [error] ValueError: `column` parameter (1) is not in a valid range (0-0) for line 208 ('\n').: Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 208 ('\n').
+	at /home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)

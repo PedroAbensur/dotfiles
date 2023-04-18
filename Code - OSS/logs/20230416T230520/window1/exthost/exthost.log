@@ -1,0 +1,378 @@
+2023-04-16 23:05:22.585 [info] Extension host with pid 1863546 started
+2023-04-16 23:05:22.585 [info] Skipping acquiring lock for /home/haru/.config/Code - OSS/User/workspaceStorage/e36b6632818e763498d51a3ceaab0fa6.
+2023-04-16 23:05:22.808 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-16 23:05:22.808 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-04-16 23:05:22.808 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-16 23:05:23.529 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-16 23:05:23.529 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2023-04-16 23:05:23.642 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-16 23:05:23.642 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-16 23:05:23.805 [info] Eager extensions activated
+2023-04-16 23:05:23.891 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-16 23:05:23.891 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-16 23:05:23.892 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-04-16 23:05:23.892 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2023-04-16 23:05:24.306 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-16 23:05:24.386 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at Mc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:45108)
+	at new PC (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:433687)
+	at f (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:544291)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548700
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545511
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:550764)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519737
+	at e._get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519166)
+	at e.get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:514861)
+	at Ly.get (/home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:69994)
+	at /home/haru/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:552800
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-16 23:05:24.956 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:791545)
+	at /home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-16 23:05:36.200 [info] Extension host terminating: received terminate message from renderer
+2023-04-16 23:05:36.233 [warning] Canceled
+2023-04-16 23:05:36.237 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1481885)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12398)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12533)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12533)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.238 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at ActionRunners.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35571)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.238 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at ActionRunners.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35571)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.238 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at ActionRunners.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35571)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.238 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at Object.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36226)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.239 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at Object.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36226)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.239 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at g (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:868259)
+	at c (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:608698)
+	at ActionRunners._updateContextKeys (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:37566)
+	at s (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:35985)
+	at RegisteredActionRunner.unregister (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36129)
+	at RegisteredActionRunner.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:34794)
+	at Object.dispose (/home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:36226)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-16 23:05:36.240 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-04-16 23:05:36.244 [info] Extension host with pid 1863546 exiting with code 0

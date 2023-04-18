@@ -1,0 +1,17 @@
+2023-04-17 11:51:38.683 [info] Starting worker process with pid 2872 (type: fileWatcher, window: 1).
+2023-04-17 11:51:43.401 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 11:51:46.349 [info] Starting worker process with pid 3317 (type: fileWatcher, window: 3).
+2023-04-17 12:47:48.122 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 19:16:39.163 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 21:48:36.310 [info] Worker process with pid 2872 terminated normally (type: fileWatcher, window: 1).
+2023-04-17 21:48:45.598 [info] Starting worker process with pid 384304 (type: fileWatcher, window: 4).
+2023-04-18 04:21:07.252 [info] Getting Manifest... ms-python.python
+2023-04-18 04:21:10.040 [info] Installing extension: ms-python.python
+2023-04-18 04:21:16.953 [info] Extension signature verification is not done: ms-python.python
+2023-04-18 04:21:18.678 [info] Extracted extension to /home/haru/.vscode-oss/extensions/.120b6c6c-6aac-4fe1-a02d-25b460ba06d2: ms-python.python
+2023-04-18 04:21:18.760 [info] Renamed to /home/haru/.vscode-oss/extensions/ms-python.python-2023.6.1-universal
+2023-04-18 04:21:18.777 [info] Extracting extension completed. ms-python.python
+2023-04-18 04:21:18.966 [info] Extension installed successfully: ms-python.python
+2023-04-18 04:21:18.982 [info] Marked extension as uninstalled ms-python.python-2023.6.0-universal
+2023-04-18 14:07:21.110 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-18 14:07:44.819 [info] Worker process with pid 384304 terminated normally (type: fileWatcher, window: 4).

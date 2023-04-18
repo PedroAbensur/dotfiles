@@ -1,0 +1,20 @@
+2023-04-16 21:41:55.013 [info] Log level: Info
+2023-04-16 21:41:55.013 [info] Validating found git in: "git"
+2023-04-16 21:41:55.013 [info] Using git "2.40.0" from "git"
+2023-04-16 21:41:55.013 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-16 21:41:55.070 [info] > git rev-parse --git-dir --git-common-dir [58ms]
+2023-04-16 21:41:55.074 [info] Open repository: /home/haru/esquizoDB
+2023-04-16 21:41:55.146 [info] > git config --get commit.template [5ms]
+2023-04-16 21:41:55.166 [info] > git rev-parse --show-toplevel [84ms]
+2023-04-16 21:41:55.188 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-16 21:41:55.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2023-04-16 21:41:55.268 [info] > git rev-parse --show-toplevel [71ms]
+2023-04-16 21:41:55.279 [info] > git status -z -uall [55ms]
+2023-04-16 21:41:55.296 [info] > git rev-parse --show-toplevel [18ms]
+2023-04-16 21:41:55.297 [info] > git config --get commit.template [2ms]
+2023-04-16 21:41:55.350 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2023-04-16 21:41:55.362 [info] > git status -z -uall [2ms]
+2023-04-16 21:41:55.655 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-16 21:41:55.682 [info] > git show --textconv :scripts/tp1_3.2.py [10ms]
+2023-04-16 21:41:55.684 [info] > git ls-files --stage -- /home/haru/esquizoDB/scripts/tp1_3.2.py [3ms]
+2023-04-16 21:41:55.694 [info] > git cat-file -s edc66e83e72a3777fd48c9a764d6e6d23b3651e3 [2ms]

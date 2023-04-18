@@ -1,0 +1,25 @@
+2023/04/16-13:33:09.550 679da Creating DB /home/haru/.config/whatsapp-nativefier-d40211/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/04/16-13:33:09.764 679da Reusing MANIFEST /home/haru/.config/whatsapp-nativefier-d40211/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/16-13:33:10.417 679da Level-0 table #5: started
+2023/04/16-13:33:10.498 679da Level-0 table #5: 7374 bytes OK
+2023/04/16-13:33:10.688 679da Delete type=0 #3
+2023/04/16-13:33:10.689 679da Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/16-13:33:55.670 679dd Level-0 table #7: started
+2023/04/16-13:33:55.886 679dd Level-0 table #7: 1062902 bytes OK
+2023/04/16-13:33:55.968 679dd Delete type=0 #4
+2023/04/16-13:33:57.312 679da Level-0 table #9: started
+2023/04/16-13:33:57.545 679da Level-0 table #9: 1176021 bytes OK
+2023/04/16-13:33:57.630 679da Delete type=0 #6
+2023/04/16-13:33:57.634 679da Compacting 1@0 + 1@1 files
+2023/04/16-13:33:57.844 679da Generated table #10@0: 44191 keys, 1498184 bytes
+2023/04/16-13:33:57.844 679da Compacted 1@0 + 1@1 files => 1498184 bytes
+2023/04/16-13:33:57.925 679da compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/16-13:33:57.925 679da Delete type=2 #9
+2023/04/16-13:33:57.925 679da Delete type=2 #7
+2023/04/16-13:33:58.495 679da Level-0 table #12: started
+2023/04/16-13:33:58.631 679da Level-0 table #12: 1072107 bytes OK
+2023/04/16-13:33:58.742 679da Delete type=0 #8
+2023/04/16-13:33:58.945 679eb Compacting 1@0 + 1@1 files
+2023/04/16-13:33:59.186 679eb Generated table #13@0: 62152 keys, 1983373 bytes
+2023/04/16-13:33:59.186 679eb Compacted 1@0 + 1@1 files => 1983373 bytes
+2023/04/16-13:33:59.269 679eb compacted to: files[ 0 1 1 0 0 0 0 ]

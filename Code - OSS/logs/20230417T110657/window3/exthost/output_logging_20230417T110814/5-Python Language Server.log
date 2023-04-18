@@ -1,0 +1,36 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+WARNING:pygls.protocol:Cancel notification for unknown message id "8"
+WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+WARNING:pygls.protocol:Cancel notification for unknown message id "14"
+WARNING:pygls.protocol:Cancel notification for unknown message id "15"
+WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+ERROR:pygls.protocol:Failed to handle request 37 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/haru/BD/tp1_joaopedroamoedo_isabelleserique/scripts/tp1_3.2.py'), position=207:0, work_done_token=None)
+Traceback (most recent call last):
+  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 378, in hover
+    jedi_script.help(
+  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 208 ('\n').
+[Error - 11:11:09 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 208 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 378, in hover\n    jedi_script.help(\n', '  File "/home/haru/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "45"
+WARNING:pygls.protocol:Cancel notification for unknown message id "46"
+WARNING:pygls.protocol:Cancel notification for unknown message id "49"
+WARNING:pygls.protocol:Cancel notification for unknown message id "55"
+WARNING:pygls.protocol:Cancel notification for unknown message id "58"
+WARNING:pygls.protocol:Cancel notification for unknown message id "73"
+WARNING:pygls.protocol:Cancel notification for unknown message id "75"
+WARNING:pygls.protocol:Cancel notification for unknown message id "83"
+WARNING:pygls.protocol:Cancel notification for unknown message id "84"
+WARNING:pygls.protocol:Cancel notification for unknown message id "94"
+WARNING:pygls.protocol:Cancel notification for unknown message id "100"
+WARNING:pygls.protocol:Cancel notification for unknown message id "181"
+WARNING:pygls.protocol:Cancel notification for unknown message id "215"

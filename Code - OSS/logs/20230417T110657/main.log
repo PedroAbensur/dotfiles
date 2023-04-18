@@ -1,0 +1,6 @@
+2023-04-17 11:06:58.893 [info] update#ctor - updates are disabled as there is no update URL
+2023-04-17 11:07:04.534 [info] Starting extension host with pid 2086068 (fork() took 14 ms).
+2023-04-17 11:07:52.200 [info] Starting extension host with pid 2087284 (fork() took 16 ms).
+2023-04-17 11:08:11.397 [info] Extension host with pid 2087284 exited with code: 0, signal: null.
+2023-04-17 11:08:13.708 [info] Starting extension host with pid 2087668 (fork() took 13 ms).
+2023-04-17 11:45:20.298 [info] Extension host with pid 2087668 exited with code: 0, signal: null.

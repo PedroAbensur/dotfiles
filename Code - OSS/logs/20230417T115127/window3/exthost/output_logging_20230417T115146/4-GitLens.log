@@ -1,0 +1,8 @@
+[2023-04-18 00:40:20.293] /home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:294063
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:scripts/tp1_3.3.py
+fatal: There is no path scripts/tp1_3.3.py in the commit
+
+[2023-04-18 00:40:46.108] /home/haru/.vscode-oss/extensions/eamodio.gitlens-13.5.0-universal/dist/gitlens.js:1:294063
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:scripts/tp1_3.3.py
+fatal: There is no path scripts/tp1_3.3.py in the commit
+

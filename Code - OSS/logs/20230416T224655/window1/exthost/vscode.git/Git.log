@@ -1,0 +1,20 @@
+2023-04-16 22:47:05.954 [info] Log level: Info
+2023-04-16 22:47:05.954 [info] Validating found git in: "git"
+2023-04-16 22:47:05.954 [info] Using git "2.40.0" from "git"
+2023-04-16 22:47:05.954 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-16 22:47:05.990 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2023-04-16 22:47:05.996 [info] Open repository: /home/haru/esquizoDB
+2023-04-16 22:47:11.011 [info] > git config --get commit.template [4993ms]
+2023-04-16 22:47:11.011 [info] > git rev-parse --show-toplevel [5005ms]
+2023-04-16 22:47:11.027 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-16 22:47:11.086 [info] > git rev-parse --show-toplevel [51ms]
+2023-04-16 22:47:11.105 [info] > git rev-parse --show-toplevel [11ms]
+2023-04-16 22:47:11.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+2023-04-16 22:47:11.135 [info] > git check-ignore -v -z --stdin [32ms]
+2023-04-16 22:47:11.136 [info] > git show --textconv :scripts/tp1_3.2.py [21ms]
+2023-04-16 22:47:11.137 [info] > git status -z -uall [4ms]
+2023-04-16 22:47:11.137 [info] > git ls-files --stage -- /home/haru/esquizoDB/scripts/tp1_3.2.py [14ms]
+2023-04-16 22:47:11.182 [info] > git cat-file -s da54e1e1348d645a7ba45c384bf6c90cc5dde499 [36ms]
+2023-04-16 22:47:11.210 [info] > git config --get commit.template [14ms]
+2023-04-16 22:47:11.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [129ms]
+2023-04-16 22:47:11.397 [info] > git status -z -uall [26ms]
